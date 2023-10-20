@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, expect
+
 
 def test_get_home(web_client):
     response = web_client.get("/")
